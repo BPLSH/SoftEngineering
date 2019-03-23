@@ -13,21 +13,24 @@ unit 2 Software Process Models
 > **그 결과 발견되지 않은 오류들이 시스템을 붕괴시킬 것이며 소프트웨어 개발과 유지보수 비용이 많이 들게 한다.**
 
 
-1. 방법론(Methodology)
----------------------
+1.방법론(Methodology)
+-------------------
+
 process와 관계는 있으나 의미는 조금 다르다. 프로세스를 어떻게 어떤 순서로 어떤 방법으로 하는가를 다룬 것이 방법론이다.   
 프로세스는 각 단계별로 무엇을 할지 정하는 것이며 방법론은 프로세스의 작업을 어떻게 수행할 것인가를 다룬 내용이다.  
 **결국, 프로세스의 구현 방법이다.**   
 그래서 프로세스, 사전(기술), 명세서로 구성된다. 개발자가 소프트웨어를 보는 관점에 따라 방법론이 달라지기 때문에 패러다임에 종속적이다.
 
-2. 프로세스(process)
--------------------
+2.프로세스(process)
+-------------------  
+  
 소프트웨어를 개발하는데 필요한 작업의 단계이다. 높은 품질, 낮은 비용, 일정 단축을 달성하는 작업을 뜻하고
 프로세스 모델은 프로세스들 사이의 관계만을 정의한 것 
 방법론은 자세한 입력자료, 산출물 표현 등 각 작업 방식을 자세히 제시하는 것
-
-퀄리티 모델 프레임워크
+  
+퀄리티 모델 프레임워크  
 ---------------------
+  
 프로세스 퀄리티->내부 퀄리티 속성->외부 퀄리티 속성->사용자 퀄리티 속성
 * 제품 품질을 높이는데 기여한다
 * 중간 단계의 수치를 측정함으로써 평가(기술적 단계로 간주됨)
@@ -49,14 +52,14 @@ supporting process(definition-development-maintenance)
 
 definition
 -----------
--requirement engineering  
--process of defining, documenting and maintaining the requirements development    
--analysis, design, implementation, testing, deployment  
--요구분석, 설계, 구현, 테스팅, 설치 및 운영 maintenance    
--post_development activities 지속적인 개발 활동들  
--software retirement 만료  
+* requirement engineering  
+* process of defining, documenting and maintaining the requirements development    
+* analysis, design, implementation, testing, deployment  
+* 요구분석, 설계, 구현, 테스팅, 설치 및 운영 maintenance    
+* post_development activities 지속적인 개발 활동들  
+* software retirement 만료  
 
-###** 1. Waterfall Model **###
+### **1. Waterfall Model** ###
   
 **소프트웨어 공학 파라다임에서 가장 오래됨**  
   
@@ -90,7 +93,7 @@ definition
 * 사용자들은 참을성을 지녀야 한다(결과가 최종단계에 도달해야 도출된다).  
 * 프로토타입(설계이전 요구를 동결하는 대신 발주자의 요구 이해를 목적으로 쓰고 버리는 모형)과 재사용의 기회가 줄어든다.  
   
-### 2. Spiral Model ###
+### **2. Spiral Model** ###
   
 	* 위험 관리를 위한 독특한 프로세스 모델
 	* 개발을 위한 계획 및 요구분석 후에 위혐 요소와 차선책 검토 개발 및 검증을 반복
@@ -120,7 +123,7 @@ definition
 3. 문제와 위험을 해결하는 전략 개발  
 4. 소프트웨어 개발  
 
-### 3. Agile Process ###  
+### **3. Agile Process** ###  
   
 	* 변화에 효과적인(빠르고 적합한) 반응
 	* 문서화 대신 빠르고 짧게 자주 개발하고 출시
@@ -132,7 +135,7 @@ definition
 	* 프로세스나 도구보다는 개발자나 팀의 협력을 중요시 여김
 	* 다음 반복 주기 전에 테스팅을 완벽히 구현한다.
 
-#### 4.스크럼 ####
+#### **4.스크럼** ####
   
 	 + 애자일 프로세스 기법 중 하나로 프로젝트/프로그램 관리 기법
 	 + 솔루션에 포함할 기능/개선점에 대한 우선순위 부여
