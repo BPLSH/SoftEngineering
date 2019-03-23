@@ -31,11 +31,11 @@ can be **hardware device**(sensor, actuator)
 동그라미안에 process라고 씀으로써 표현함
 
 ex)  
-compute tax
-determine face emotion
-generate report
-deposit money
-
+compute tax  
+determine face emotion  
+generate report  
+deposit money  
+  
 #### **3. data flow** ####
 화살표(direction of data)와 위의 이름(data name)으로 표현됨
 
