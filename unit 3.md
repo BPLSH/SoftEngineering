@@ -19,9 +19,8 @@ unit 3 Requirement Analysis
 **consumer** : 정보를 가져가는 주체  
   
 직사각형에 terminal이라고 씀으로써 표현함  
-  
-<example>
-  
+
+ex) 
 can be **user**(consumer, staff, banker) like 객체  
 can be **external system**(ex: credit card authorizer:은행정보기관 : 정보를 제공하는 기관)  
 can be **hardware device**(sensor, actuator)  
@@ -31,7 +30,7 @@ can be **hardware device**(sensor, actuator)
 
 동그라미안에 process라고 씀으로써 표현함
 
-<example>
+ex)
 compute tax
 determine face emotion
 generate report
