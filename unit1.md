@@ -14,7 +14,7 @@ engineering
 
 소프트 엔지니어링의 목표
 -----------------------
-> 높은 질(high quality)소프트 시스템, 효과적인 비용(cost-effective)방법
+높은 질(high quality)소프트 시스템, 효과적인 비용(cost-effective)방법
 
 40년간 계속된 소프트웨어 생산성(productivity) 문제
 ----------------------------------------------------
@@ -40,12 +40,12 @@ engineering
 
 소프트웨어 complexity
 --------------------
- User Demands on Richer Functionality of Software 
- Heterogeneous Hardware Environment 
- Distributed Computing 
- Web-based and Mobile Applications 
- Software embedded in Hardware Systems 
- Context-aware Computing
+* User Demands on Richer Functionality of Software 
+* Heterogeneous Hardware Environment 
+* Distributed Computing 
+* Web-based and Mobile Applications 
+* Software embedded in Hardware Systems 
+* Context-aware Computing
 
 소프트웨어 접근법
 ---------------
@@ -57,17 +57,11 @@ software cost
 개발 비용+소유비용(구현 및 유지)
 ownership cost(67) is twice as expensive as development(33)
 
-in result, just making software product is not the final goal, maintenance becomes a significant issue.
-
-소프트웨어 위기를 극복하는 방법
------------------------------
-1.소프트웨어 발전(software development)에 공학적 접근
-애드혹(ad-hoc approach)피하기 - 특정한 문제나 일을 위해 만들어진 관습적인 해결책
-effective methodology(효과적인 방법론) 활용하기
+####in result, just making software product is not the final goal, maintenance becomes a significant issue.
 
 "Engineering" Approach to Software Development
 ----------------------------------------------
-1.Avoid Ad-hoc approach
+1.Avoid Ad-hoc approach (특정 문제나 일을 위하여 만들어진 관습적인 해결책 실용성 x)
 Utilize Effective Methodology
 
 2.reusing software assets
