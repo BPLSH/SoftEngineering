@@ -53,9 +53,9 @@ foot bridge over stream vs road bridge over river
 
 software cost
 -------------
-=Development cost + ownership cost(Operation cost + maintenance cost)
-개발 비용+소유비용(구현 및 유지)
-ownership cost(67) is twice as expensive as development(33)
+=Development cost + ownership cost(Operation cost + maintenance cost)  
+개발 비용+소유비용(구현 및 유지)  
+ownership cost(67) is twice as expensive as development(33)  
 
 *in result, just making software product is not the final goal, maintenance becomes a significant issue.*
 
