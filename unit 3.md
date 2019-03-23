@@ -14,10 +14,10 @@ unit 3 Requirement Analysis
 ### **다이어그램 - 4개의 요소** ###
   
 #### **1. terminal(External Entity)** ####
-*- a producer or consumer of information*
-**producer** : 정보를 입력하는 주체
-**consumer** : 정보를 가져가는 주체
-
+*- a producer or consumer of information*  
+**producer** : 정보를 입력하는 주체  
+**consumer** : 정보를 가져가는 주체  
+  
 직사각형에 terminal이라고 씀으로써 표현함  
   
 <example>
