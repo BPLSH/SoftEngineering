@@ -36,10 +36,10 @@ determine face emotion
 generate report
 deposit money
 
-3. data flow
+#### **3. data flow** ####
 화살표(direction of data)와 위의 이름(data name)으로 표현됨
 
-4. data store
+#### **4. data store** ####
 데이터를 저장하는 저장 공간. 프로세스의 데이터 요구에 반응한다.
 버퍼만큼 단순하고 데이터베이스처럼 정교하다.
 
