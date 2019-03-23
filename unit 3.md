@@ -20,7 +20,7 @@ unit 3 Requirement Analysis
   
 직사각형에 terminal이라고 씀으로써 표현함  
 
-ex) 
+ex)  
 can be **user**(consumer, staff, banker) like 객체  
 can be **external system**(ex: credit card authorizer:은행정보기관 : 정보를 제공하는 기관)  
 can be **hardware device**(sensor, actuator)  
