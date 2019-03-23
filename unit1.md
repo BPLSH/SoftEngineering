@@ -27,16 +27,16 @@ engineering
 
 다양한 형태의 소프트웨어 위기(crisis)
 -----------------------------------
-1.예산과 시간이 오버된 프로젝트
-  Projects running over-budget and over-time
-2.비능률적인 소프트웨어
-  Software with inefficiency
-3.낮은 질의 소프트웨어
-  Software with low quality
-4.소프트웨어는 필수요구사항들을 못만남
-  Software not meeting requirements
-5.관리할 수 없는 프로젝트들
-  Unmanageable Projects
+1. 예산과 시간이 오버된 프로젝트
+   Projects running over-budget and over-time
+2. 비능률적인 소프트웨어
+   Software with inefficiency
+3. 낮은 질의 소프트웨어
+   Software with low quality
+4. 소프트웨어는 필수요구사항들을 못만남
+   Software not meeting requirements
+5. 관리할 수 없는 프로젝트들
+   Unmanageable Projects
 
 소프트웨어 complexity
 --------------------
@@ -57,16 +57,16 @@ software cost
 개발 비용+소유비용(구현 및 유지)
 ownership cost(67) is twice as expensive as development(33)
 
-####in result, just making software product is not the final goal, maintenance becomes a significant issue.
+*in result, just making software product is not the final goal, maintenance becomes a significant issue.*
 
 "Engineering" Approach to Software Development
 ----------------------------------------------
-1.Avoid Ad-hoc approach (특정 문제나 일을 위하여 만들어진 관습적인 해결책 실용성 x)
-Utilize Effective Methodology
+1. Avoid Ad-hoc approach (특정 문제나 일을 위하여 만들어진 관습적인 해결책 실용성 x)
+   Utilize Effective Methodology
 
-2.reusing software assets
-Components, Cloud Services, Design Patterns, Architectural Styles, Frameworks, etc
+2. reusing software assets
+   Components, Cloud Services, Design Patterns, Architectural Styles, Frameworks, etc
 
-3.모델링(modeling)과 디자인(design)에 신경쓴다
-Focus more on Modeling and Design
-good design is a prerequisite to good implementation.
+3. 모델링(modeling)과 디자인(design)에 신경쓴다
+   Focus more on Modeling and Design
+   good design is a prerequisite to good implementation.
