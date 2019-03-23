@@ -30,7 +30,7 @@ can be **hardware device**(sensor, actuator)
 
 동그라미안에 process라고 씀으로써 표현함
 
-ex)
+ex)  
 compute tax
 determine face emotion
 generate report
@@ -80,7 +80,7 @@ input(a)와 output(b)가 일관성(즉, 아무리 내려가도 의미가 변하�
 
 > smart product placement 최상의 제품 위치 진열
 
-> 2. functional requirements
+> functional requirements
 > 10 processes
 
 > 다음 주 목요일 수업때까지
@@ -105,5 +105,3 @@ input(a)와 output(b)가 일관성(즉, 아무리 내려가도 의미가 변하�
 > actor can be another system interacting with the system
 
 > system including all use cases.
-
-
