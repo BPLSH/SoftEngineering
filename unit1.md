@@ -64,9 +64,9 @@ ownership cost(67) is twice as expensive as development(33)
 1. Avoid Ad-hoc approach (특정 문제나 일을 위하여 만들어진 관습적인 해결책 실용성 x)  
    Utilize Effective Methodology
 
-2. reusing software assets
+2. reusing software assets  
    Components, Cloud Services, Design Patterns, Architectural Styles, Frameworks, etc
 
-3. 모델링(modeling)과 디자인(design)에 신경쓴다
-   Focus more on Modeling and Design
+3. 모델링(modeling)과 디자인(design)에 신경쓴다  
+   Focus more on Modeling and Design  
    good design is a prerequisite to good implementation.
