@@ -18,7 +18,7 @@ unit 3 Requirement Analysis
 **producer** : 정보를 입력하는 주체  
 **consumer** : 정보를 가져가는 주체  
   
-직사각형에 terminal이라고 씀으로써 표현함  
+**+ 직사각형에 terminal이라고 씀으로써 표현함**    
 
 ex)  
 can be **user**(consumer, staff, banker) like 객체  
@@ -28,7 +28,7 @@ can be **hardware device**(sensor, actuator)
 #### **2. process = function** ####
 *- a transformer of information* 
 
-동그라미안에 process라고 씀으로써 표현함
+**+ 동그라미안에 process라고 씀으로써 표현함**
 
 ex)  
 compute tax  
