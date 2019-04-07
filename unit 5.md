@@ -20,7 +20,7 @@ unit 5
 **visibility(투명성)**  
 * + : public 
 * - : private
-* # : protected 
+* /# : protected 
 * ~ : package
 
 **cardinality(복수성)** 
