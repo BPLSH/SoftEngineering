@@ -12,7 +12,7 @@ unit 5 클래스 다이어그램(class Diagram)
 *an atomic data item also can be an object.  
 Attribute UML notation ( visibility name : type-expression : value)  
 ex) +size:Area = (100,100)*  
-**operation** 
+**operation**  
 *cohesive functions for a class 
 Op UML notation (visibility name(parameters) : return-type)*  
 **visibility(투명성)**  
