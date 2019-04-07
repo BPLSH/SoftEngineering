@@ -7,12 +7,12 @@ unit 5 클래스 다이어그램(class Diagram)
     * 클래스는 클래스 이름, 속성, 오퍼레이션 정보를 담고 있다.  
 
 ### **클래스 구성** ###  
-**class** : *composite information. consisting of attributes.*  
-**attribute**  
++ **class** : *composite information. consisting of attributes.*  
++ **attribute**  
 *an atomic data item also can be an object.  
 Attribute UML notation ( visibility name : type-expression : value)  
 ex) +size:Area = (100,100)*  
-**operation**  
++ **operation**  
 *cohesive functions for a class 
 Op UML notation (visibility name(parameters) : return-type)*  
 **visibility(투명성)**  
