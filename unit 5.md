@@ -16,10 +16,10 @@ ex) +size:Area = (100,100)*
 *cohesive functions for a class 
 Op UML notation (visibility name(parameters) : return-type)*  
 **visibility(투명성)**  
-* + : public 
-* - : private
-* /# : protected 
-* ~ : package
+* (+) : public 
+* (-) : private
+* (#) : protected 
+* (~) : package
 
 ### 연관 관계 ###
 **1. dependency** : when objects of one class work briefly with objects of another class  
