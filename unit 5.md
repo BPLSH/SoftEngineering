@@ -42,7 +42,8 @@ Op UML notation (visibility name(parameters) : return-type)*
 계층적인 구성을 강조한다면 이것 적용  
 
 **aggregation vs composition**  
-> aggregation(집합)과 composition(합성)은 객체 사이의 전체와 부분 관계를 표현한다는 점에서는 같지만 합성이 집합보다 더 강한 의미를 갖는다.   > > > whole(전체)<---part(부분)관계일 경우 집합의 경우 part는 whole과 독립적이어서 그 자체로도 의미를 가질 수 있다.   
+> aggregation(집합)과 composition(합성)은 객체 사이의 전체와 부분 관계를 표현한다는 점에서는 같지만 합성이 집합보다 더 강한 의미를 갖는다.  
+> whole(전체)<---part(부분)관계일 경우 집합의 경우 part는 whole과 독립적이어서 그 자체로도 의미를 가질 수 있다.   
 > 그러나 합성관계일 경우 part는 >whole에 종속되어 독립적이지 않고 whole에 소유된다.  
 > 결국 whole 객체가 생성됨에 따라 part도 생성되고 소멸됨에 따라 part도 소멸된다.  
   
