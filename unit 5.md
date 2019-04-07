@@ -23,7 +23,7 @@ unit 5
 * # : protected 
 * ~ : package
 
-**cardinality(복수성)**
+**cardinality(복수성)** 
 = multiplicity
 클래스의 객체에 연관되어 있는 링크의 개수를 나타낸다.
   
