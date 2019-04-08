@@ -26,8 +26,8 @@ Op UML notation (visibility name(parameters) : return-type)*
 (temporal link between instances)  
   
 **2. association** : when objects of one class work with objects of another class for some prolonged amount of time
-(a persistent link between instances)
-  
+(a persistent link between instances)  
+생성자와 소멸자를 신경쓸 필요없이 서로 아예 독립적인 관계
 **cardinality(복수성)** 
 = multiplicity  
 클래스의 객체에 연관되어 있는 링크의 개수를 나타낸다.  
@@ -35,11 +35,13 @@ Op UML notation (visibility name(parameters) : return-type)*
 **3. aggregation** : ~ owns but shares a reference to objects of another class
 (a part-of relationship between instances)  
 일대다 관계  
+생성자를 신경써야 하는 종속 관계
 
 **4. composition** : ~ contains objects of another class
 (a strong aggregation)  
 전체부분 관계  
 계층적인 구성을 강조한다면 이것 적용  
+생성자와 소멸자를 신경써야하는 종속 관계
 
 **aggregation vs composition**  
 > aggregation(집합)과 composition(합성)은 객체 사이의 전체와 부분 관계를 표현한다는 점에서는 같지만 합성이 집합보다 더 강한 의미를 갖는다.  
