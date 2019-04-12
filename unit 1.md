@@ -47,10 +47,6 @@ engineering
 * Software embedded in Hardware Systems 
 * Context-aware Computing
 
-소프트웨어 접근법
----------------
-foot bridge over stream vs road bridge over river
-
 software cost
 -------------
 Development cost + ownership cost(Operation cost + maintenance cost)  
@@ -58,6 +54,13 @@ Development cost + ownership cost(Operation cost + maintenance cost)
 ownership cost(67) is **twice** as expensive as development(33)  
 
 *in result, just making software product is not the final goal, maintenance becomes a significant issue.*
+
+software entropy
+----------------
+
+소프트웨어 접근법
+---------------
+foot bridge over stream vs road bridge over river
 
 "Engineering" Approach to Software Development
 ----------------------------------------------
