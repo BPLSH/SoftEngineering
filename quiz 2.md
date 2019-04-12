@@ -2,7 +2,7 @@
 ========
 
 **1. What is 'Product Backlog' in Agile Process?**  
-answer : 개발할 제품에 대한 요구 사항 목록이다. product owner(제품 관리자)는 작업의 우선순위에 맞게 목록을 설계한다.  
+answer : product owner(제품 관리자)는 작업의 우선순위에 맞게 개발할 제품에 대한 요구 사항 목록을 설계한다.  
 
 **2. What is the benefit of having 'Daily Scrum' in Agile Process?**  
   
@@ -56,3 +56,5 @@ answer : 개발할 제품에 대한 요구 사항 목록이다. product owner(�
 
 7. ScrumMaster(스크럼 마스터)
 * 프로젝트 관리자(코치)로 팀원을 코칭하고 문제 상황 해결
+  
+**8. What is the benefits of sprint review?**
