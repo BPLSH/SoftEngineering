@@ -158,7 +158,7 @@ definition
 > 개발할 제품에 대한 요구 사항 목록
 
 *스프린트(sprint)*
-> 반복적인 개발 주기(iteration)
+> 반복적인 개발 주기(iteration)  
 > 계획 회의부터 제품 리뷰까지 1스프린트로 간주
 
 *스프린트 계획 회의(sprint planning meeting)*
