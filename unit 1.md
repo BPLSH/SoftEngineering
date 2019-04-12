@@ -16,15 +16,6 @@ engineering
 -----------------------
 높은 질(high quality)소프트 시스템, 효과적인 비용(cost-effective)방법
 
-40년간 계속된 소프트웨어 생산성(productivity) 문제
-----------------------------------------------------
-1. 하드웨어의 변화를 따라가지 못함
-   software has failed to keep up with **hardware evolution.**
-2. 지난 10년동안 큰 진전이 없었음
-   No significant **advances** for the last few decades
-3. 올바르고 이해할 수 있고 검증 가능한 소프트웨어 쓰기의 어려움
-   Difficulty of **writing correct, understandable and verifiable software**
-
 다양한 형태의 소프트웨어 위기(crisis)
 -----------------------------------
 1. 예산과 시간이 오버된 프로젝트
@@ -37,6 +28,8 @@ engineering
    Software not meeting requirements
 5. 관리할 수 없는 프로젝트들
    Unmanageable Projects
+6. 소프트웨어 complexity
+7. 포스트웨어 생산성 문제
 
 소프트웨어 complexity
 --------------------
@@ -46,6 +39,15 @@ engineering
 * Web-based and Mobile Applications 
 * Software embedded in Hardware Systems 
 * Context-aware Computing
+
+40년간 계속된 소프트웨어 생산성(productivity) 문제
+----------------------------------------------------
+1. 하드웨어의 변화를 따라가지 못함
+   software has failed to keep up with **hardware evolution.**
+2. 지난 10년동안 큰 진전이 없었음
+   No significant **advances** for the last few decades
+3. 올바르고 이해할 수 있고 검증 가능한 소프트웨어 쓰기의 어려움
+   Difficulty of **writing correct, understandable and verifiable software**
 
 software cost
 -------------
