@@ -29,19 +29,6 @@
 * Initial Node(시작점) : 액티비티가 시작되는 부분
 * Final Node(종료점) : 액티비티가 종료되는 부분
 
-
-dynamic aspect, it means run-time.
-use case diagram, class diagram는 실행순서가 목적이 아님. 기능들을 나열한 것이지.
-page89
-start node -> end node
-arrow means 실행순서
-<action>
-action is not use-case
-it can be use-case
-represents by verb
-
-
-
 **Decision node(조건 노드)**
 조건에 따른 선택적 실행을 표현
 조건 노드를 마름모로 표시하며 1개의 입력과 2개 이상의 분기를 가짐
@@ -68,7 +55,3 @@ represents by verb
 액션에 책임을 지는 참여자를 표현하기 위한 것
 액티비티에 포함된 액션들을 수행하는 주체는 하나 이상이 될 수 있으며 가로 또는 세로 구역을 구분하여 담당 주체를 표시함
 
-
-
-액티비티 다이어그램 solution
-4 parrell threads. and has action each
