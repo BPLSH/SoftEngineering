@@ -42,20 +42,33 @@ represents by verb
 
 
 
-Decision node
-guard1 = 조건문
+**Decision node(조건 노드)**
+조건에 따른 선택적 실행을 표현
+조건 노드를 마름모로 표시하며 1개의 입력과 2개 이상의 분기를 가짐
+조건 노드에서 나오는 흐름에 조건(guardd condition)을 [] 안에 표시함
 
-Merge node
-합병문
+**Merge node(병합 노드)**
+조건에 따른 액션 흐름들은 병합 노드로 합쳐짐
 
-Fork node
-병렬문(시작표현)
+**Fork node(포크 노드)**
+병렬 처리를 표현하기 위해 포크(fork)와 조인(join)을 사용하며 수직(또는 수평)의 굵은 막대로 표시
+포크 뒤의 흐름은 2개 이상으로 나뉘어 동시에 진행
 
-Join node
-병렬문(end 표현)
-s
-exception handler
-try- catch문
+**Join node(조인 노드)**
+병렬 처리되었던 액션 흐름들은 조인 노드를 통해 동기화됨
+동시 수행되었던 흐름들이 모두 종료되어야 조인을 통해 다음 흐름으로 이어짐
+
+**Expception handler(예외 처리)**
+하나의 액티비티에 발생할 수 있는 모든 액션들을 재기
+
+**Signal(시그널)**
+외부의 사람, 시스템 또는 프로세스와의 상호 작용을 의미
+
+**Partition(파티션)**
+액션에 책임을 지는 참여자를 표현하기 위한 것
+액티비티에 포함된 액션들을 수행하는 주체는 하나 이상이 될 수 있으며 가로 또는 세로 구역을 구분하여 담당 주체를 표시함
+
+
 
 액티비티 다이어그램 solution
 4 parrell threads. and has action each
