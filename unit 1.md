@@ -3,8 +3,8 @@ unit 1 software engineering
 
 software
 --------
-> 컴퓨터 프로그램 및 그와 관련된 문서들을 통틀어 이르는 말
-> computer program execute, and descriptive information in both hard copy and virtual forms that encompass virtually any electronic media.
+> 컴퓨터 프로그램 및 그와 관련된 문서들을 통틀어 이르는 말  
+> computer program execute, and descriptive information in both hard copy and virtual forms that encompass virtually any electronic media.  
 ex) <virtual forms> source codes, object codes, <hard copy> development documents, user manual
 
 engineering
