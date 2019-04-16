@@ -42,6 +42,7 @@ Iterative는 일의 흐름이 반복적으로 나타나는 것을 말한다.
 그 예로 Order(주문 내역), Payment(지불 방식), Delivery(배달) 등이 있다.  
   
 **8. What are the 2 benefits of information hiding in OOP?**  
+접근제한자를 사용하여 선택적으로 외부와의 접근할 수 있는 범위를 지정하는 것이다.   
 정보은닉을 통해 접근을 차단하여 안전성을 확보하고  
 객체 간의 독립성을 확보하여 프로그램을 유연하게 함  
   
@@ -63,7 +64,7 @@ Composition의 경우 전체 객체의 생성이 부분 객체의 생성에 종�
 데이터의 저장과 호출이 가능하다. 지속적으로 사용되는 데이터를 관리하는데 도움을 준다.  
   
 **12. protected 접근 제한자의 단점은?**  
-  
+
 **13. what is the rationale for defining Association between Reservation and Rental for Car Rental System?**  
 Reservation 객체와 Rental 객체는 서로 독립적이며 참조할 수 있는 관계이므로 Association 관계를 사용한다.  
   
@@ -82,3 +83,10 @@ Reservation 객체와 Rental 객체는 서로 독립적이며 참조할 수 있�
 **17. What is the rationale for having two separate classes CarModel and CarItem, rather than a single class Car?**  
   
 **18. What are the 2 benefits of Encapsulation in OOP?**  
+클래스끼리 연관 있는 속성이나 함수를 모아 하나의 클래스에 정의하는 장치이다.  
+  
+**19. What is difference with encapsulation between information hiding?**  
+캡슐화된 클래스는 객체 단위로 정의되어 재사용이 용이하다.
+객체간의 결합도를 떨어뜨려 유지보수에 용이하다.
+캡슐화는 관련 요소들을 한 곳에 정의함으로써, 외부와 구별해주는 장치이다.  
+반면에 정보은닉은 클래스 내의 요소들에 대한 세부 구현 사항을 외부에 숨기는 장치이다.
