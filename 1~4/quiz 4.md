@@ -14,5 +14,10 @@
 액터는 시스템 외부에 있고 사용사례는 시스템 내부에 존재한다.  
   
 **3. 관계에서 포함과 확장을 가지는 경우 이점은 무엇인가?**  
-중복과 예외를 처리하여 사용사례의 관계를 간결하게 나타내어 사용자의 요구사항을 파악하는데 도움이 된다.  
- 
+관계의 종류
+* generalization(상속) : A Base use case represents the functionality of several Derived use cases.
+* include(포함) : A Base use case always invoke the included use case.  
+* extend(확장) : A Base use case invokes the Extended use case 
+
+중복과 예외를 처리하여 사용사례의 관계를 간결하게 나타내어 사용자의 요구사항을 파악하는데 도움이 된다. 
+
