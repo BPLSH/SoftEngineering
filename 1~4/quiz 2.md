@@ -58,3 +58,5 @@ answer : product owner(제품 관리자)는 작업의 우선순위에 맞게 개
 * 프로젝트 관리자(코치)로 팀원을 코칭하고 문제 상황 해결
   
 **8. What is the benefits of sprint review?**
+
+**9agile strength
