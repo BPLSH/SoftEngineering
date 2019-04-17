@@ -59,4 +59,4 @@ answer : product owner(제품 관리자)는 작업의 우선순위에 맞게 개
   
 **8. What is the benefits of sprint review?**
 
-**9agile strength
+**
