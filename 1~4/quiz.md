@@ -81,6 +81,7 @@ Reservation 객체와 Rental 객체는 서로 독립적이며 참조할 수 있�
 소프트웨어를 분석 및 개발할 때 사용되는 모델링 언어이다.  
   
 **17. What is the rationale for having two separate classes CarModel and CarItem, rather than a single class Car?**  
+CarItem 객체를 생성할 때 필요한 공통된 속성들과 op들을 CarModel에 모아 정의함으로써, 중복을 방지할 수 있다.  
   
 **18. What are the 2 benefits of Encapsulation in OOP?**  
 클래스끼리 연관 있는 속성이나 함수를 모아 하나의 클래스에 정의하는 장치이다.  
