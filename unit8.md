@@ -30,7 +30,9 @@ unit testing is simplified when a modoule has a high cohesion(응집도).
 Intergration Testing  
 
 비호환성  
-  
+## Black-box testing ##  
+**정의**  
+프로그램의 구조를 고려하지 않는 기능적 테스팅  
 black box testing = functional testing  
 yellow area subset of domain.  
 유효하지 않은 input을 대입했을 때 틀렸다는 output을 하지 않으면 알 방법이 없다.  
@@ -45,16 +47,15 @@ yellow area subset of domain.
 블랙박스 테스팅은 프로그램의 구조를 신경쓰지 않고 기능에만 관심을 가지고,  
 화이트 테스팅은 프로그램의 구조를 기반으로 소스코드를 테스트한다.  
 블랙박스 테스팅과 상호보완적이다.  
+  
 **path testing**  : 화이트 테스팅은 모듈의 모든 독립적인 **실행 경로(execution path)** 를 파악하는 것이다.  
+  
 **flow graph(논리 흐름도)**  
 모듈 내의 제어 흐름을 간선으로 표시한 그래프로서 모듈 내의 모든 세그먼트가 그래프의 정점으로 표현된다.  
-
-**Independent Program path** : 프로그램 소스 코드를 한줄한줄 경로를 따라가면서 시스템의 구조를 검증하고 결과를 확인한다.  
-**ㄷ 
-time consuming, examing whole software part.  
-test coverage : 테스트를 얼마나 충분히 수행했는지 나타내는 지표  
-    
-if some program passes black-box testing then passes white-box testing.  (
-conduct both testing.  only one is not enough.  
   
-assignment  
+**Independent Program path** : 논리 흐름도에서 최소한 하나의 새로운 세그먼트를 가지는 경로  
+**test coverage** : 테스트를 얼마나 충분히 수행했는지 나타내는 지표  
+    
+- if some program passes black-box testing then passes white-box testing. (x)
+conduct both testing.  only one is not enough.  
+ 
