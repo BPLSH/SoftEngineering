@@ -37,10 +37,20 @@ yellow area subset of domain.
 **equivalence partitioning**  
   
 ## White-box testing ##  
-- path testing  
-**execution path** : 
-**flow graph** : 프로그램의 이동경로만 심플하다. branch  
+**정의**  
+모듈의 논리적인 구조를 관찰하는 시험 방법  
+프로그램의 구조를 기반으로 테스트하는 구조적 테스팅  
+  
+**what is difference black with white**  
+블랙박스 테스팅은 프로그램의 구조를 신경쓰지 않고 기능에만 관심을 가지고,  
+화이트 테스팅은 프로그램의 구조를 기반으로 소스코드를 테스트한다.  
+블랙박스 테스팅과 상호보완적이다.  
+**path testing**  : 화이트 테스팅은 모듈의 모든 독립적인 **실행 경로(execution path)** 를 파악하는 것이다.  
+**flow graph(논리 흐름도)**  
+모듈 내의 제어 흐름을 간선으로 표시한 그래프로서 모듈 내의 모든 세그먼트가 그래프의 정점으로 표현된다.  
+
 **Independent Program path** : 프로그램 소스 코드를 한줄한줄 경로를 따라가면서 시스템의 구조를 검증하고 결과를 확인한다.  
+**ㄷ 
 time consuming, examing whole software part.  
 test coverage : 테스트를 얼마나 충분히 수행했는지 나타내는 지표  
     
