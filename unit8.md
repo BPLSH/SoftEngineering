@@ -34,6 +34,13 @@ Intergration Testing
 **정의**  
 프로그램의 구조를 고려하지 않는 기능적 테스팅  
 black box testing = functional testing  
+**exhaust testing(전수 테스팅)**  
+테스트 케이스가 프로그램의 모든 입력값을 포함하고 있는 경우를 말한다. 비현실적이고 불가능하다.  
+**equivalence class partitioning(동치 클래스 분해)**  
+프로그램의 같은 모듈을 구동시키는 경우, 대푯값으로 하나만 입력하여 테스트한다.  
+입력값의 영역을 동치 클래스로 나누고 프로그램이 대푯값에 대하여 올바르게 실행된다면  
+그 값이 속하는 클래스는 올바른 클래스라고 간주하는 것이다.  
+
 yellow area subset of domain.  
 유효하지 않은 input을 대입했을 때 틀렸다는 output을 하지 않으면 알 방법이 없다.  
 **equivalence partitioning**  
@@ -58,4 +65,10 @@ yellow area subset of domain.
     
 - if some program passes black-box testing then passes white-box testing. (x)
 conduct both testing.  only one is not enough.  
- 
+   
+**assignment**  
+빈칸없는 두개의 스트링을 입력받고 어떤 것이 모음(a,e,i,o,u)가 많은지 비교한다.  
+예를 들어 sun과 special이 입력되었을 때, 프로그램은 special을 출력한다.  
+모음 비교했을 때 u/e,i,a//  
+두개의 스트링이 같은 모음의 개수를 가지고 있을 때 프로그램은 '=='를 출력한다.
+
