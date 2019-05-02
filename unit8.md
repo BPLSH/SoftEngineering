@@ -1,6 +1,14 @@
 <unit 8>
 =========
+## Software Testing ##  
   
+### 테스팅 정의 ###  
+소프트웨어에 결함이나 원치 않는 동작을 찾아내고 소프트웨어가 요구와 제약이 맞는지 검증하는 과정  
+시험할 소프트웨어에 테스트 케이스를 주어 실행시킨 후 시스템의 동작이 예상한 대로 실행되는지 확인  
+테스트는 결함의 부재를 나타낼 수 없으며 결함의 존재만 나타낼 수 있다.
+
+### who test the software ? ###  
+프로그래머 자신은 객관적인 입장으로 테스트할 수 없으므로 
 why are we testing?  
 좋은 테스팅을 거친 프로그램은 좋은 생산성을 가진다.  
 developer과 tester을 둘로 나눔  
@@ -27,3 +35,16 @@ black box testing = functional testing
 yellow area subset of domain.  
 유효하지 않은 input을 대입했을 때 틀렸다는 output을 하지 않으면 알 방법이 없다.  
 **equivalence partitioning**  
+  
+## White-box testing ##  
+- path testing  
+**execution path** : 
+**flow graph** : 프로그램의 이동경로만 심플하다. branch  
+**Independent Program path** : 프로그램 소스 코드를 한줄한줄 경로를 따라가면서 시스템의 구조를 검증하고 결과를 확인한다.  
+time consuming, examing whole software part.  
+test coverage : 테스트를 얼마나 충분히 수행했는지 나타내는 지표  
+    
+if some program passes black-box testing then passes white-box testing.  (
+conduct both testing.  only one is not enough.  
+  
+assignment  
