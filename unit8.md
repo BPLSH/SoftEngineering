@@ -40,11 +40,11 @@ black box testing = functional testing
 프로그램의 같은 모듈을 구동시키는 경우, 대푯값으로 하나만 입력하여 테스트한다.  
 입력값의 영역을 동치 클래스로 나누고 프로그램이 대푯값에 대하여 올바르게 실행된다면  
 그 값이 속하는 클래스는 올바른 클래스라고 간주하는 것이다.  
+모듈의 명세에 적합한 정상적인 입력에 관한 동치 클래스와 비정상적 입력에 대한 동치 클래스 또한 정의한다.  
+1) 정상적인 입력의 동치클래스와 비정상적인 입력의 동치클래스를 고려한 후.  
+2) 정상적인 출력의 동치클래스와 비정상적인 출력의 동치클래스를 고려  
+3) 동치클래스를 결정했다면 테스트 케이스 선택  
 
-yellow area subset of domain.  
-유효하지 않은 input을 대입했을 때 틀렸다는 output을 하지 않으면 알 방법이 없다.  
-**equivalence partitioning**  
-  
 ## White-box testing ##  
 **정의**  
 모듈의 논리적인 구조를 관찰하는 시험 방법  
@@ -71,4 +71,6 @@ conduct both testing.  only one is not enough.
 예를 들어 sun과 special이 입력되었을 때, 프로그램은 special을 출력한다.  
 모음 비교했을 때 u/e,i,a//  
 두개의 스트링이 같은 모음의 개수를 가지고 있을 때 프로그램은 '=='를 출력한다.
-
+**partitiong**
+- noraml class = input : str1' 'str2'\n'  
+- unoraml calss = input : 
