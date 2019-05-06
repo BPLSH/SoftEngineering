@@ -33,7 +33,7 @@ Intergration Testing
 ## Black-box testing ##  
 **정의**  
 프로그램의 구조를 고려하지 않는 기능적 테스팅  
-black box testing = functional testing  
+black box testing = functional testing
 **exhaust testing(전수 테스팅)**  
 테스트 케이스가 프로그램의 모든 입력값을 포함하고 있는 경우를 말한다. 비현실적이고 불가능하다.  
 **equivalence class partitioning(동치 클래스 분해)**  
@@ -74,3 +74,4 @@ conduct both testing.  only one is not enough.
 **partitiong**
 - noraml class = input : str1' 'str2'\n'  
 - unoraml calss = input : 
+- 공백인경우 아스키가 아닌경우 
