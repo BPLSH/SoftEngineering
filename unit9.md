@@ -17,9 +17,11 @@ Fault Tolerance : hwo? try-catch block. each catch block handle the fault.(one w
 Recoverability  
 = recovering data. if system failed, data might be lost. so we need to make system high recoverability.  
 so that don't lost the data of system. that is system is very reliable.  
-External Quality(기능적) : 고객에게 가치를 제공하고 사용자의 요구를 충족시킨다. 기능 테스트, 고객 QA 및 피드백을 통해 측정, 간접적으로 영향을 미치는 내부 품질과 달리 고객에게 직접 영향을 미친다.  
-Internal Quality(구조) : 시스템이 구축된 방식과 관련이 있다. 품질 표준, 단위 테스트 등을 통해 측정, 프로그램 고나리 및 추론 능력에 영향을 미친다.   
+
+**External Quality(기능적)** : 고객에게 가치를 제공하고 사용자의 요구를 충족시킨다. 기능 테스트, 고객 QA 및 피드백을 통해 측정, 간접적으로 영향을 미치는 내부 품질과 달리 고객에게 직접 영향을 미친다. 소스코드 실행시 시스템과 상호작용하는 동적인 특성  
+**Internal Quality(구조)** : 시스템이 구축된 방식과 관련이 있다. 품질 표준, 단위 테스트 등을 통해 측정, 프로그램 고나리 및 추론 능력에 영향을 미친다. 웹 페이지 내에 적용되어 있는 소스코드의 정적인 특성   
 ISO 9126에서 정의하는 6개 소프트웨어 품질 기준(품질 보증하는데 사용)과 해당 품질 기준에서 더 세부적인 품질 특성    
+**Quality in use(사용 품질)** : 제품의 목적과 사용장의 정황에 따른 요구 기대 부합성(예 : 효율성, 즐거움), 제품에 대한 사용자의 요구 기대 부합성 정도를 의미한다.  
 **기능성(Functionality)** : 소프트웨어에 서술된 요구를 충족시키는 기능을 제공하는 능력  
 - 적합성(Suitability) : 특정 작업 및 사용자 목표에 적합한 기능 집합을 제공하는 소프트웨어 제품의 기능  
 - 정확성(Accuracy) : 올바른 또는 합의된 결과 또는 효과를 필요한 정밀도로 제공하는 소프트웨어 제품의 기능  
