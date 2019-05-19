@@ -1,6 +1,16 @@
 < Software Quality Assurance >  
 ===============================
+### ISO 9126 Quality Model ###  
+- 소프트웨어 품질의 특성을 정의하고, 품질 평가의 metrics를 정의한 국제 표준  
+- 사용자, 평가자, 개발자 모두에게 소프트웨어 제품의 품질을 평가하기 위한 지침서  
+- 소프트웨어 품질을 객관적이고 계량적으로 평가할 수 있는 기본 틀 제공  
   
+part 1 : Quality Model : 소프트웨어 품질의 특성과 품질 평가의 metrics.  
+part 2 : External metrics : 소프트웨어가 사용될 때의 외부적 성질 표현, 실행 가능한 소프트웨어를 시험/운영으로 측정한다.  
+part 3 : Internal metrics : 실행 불가능한 설계/ 코딩 중인 소프트웨어 제품(명세서, 원시코드)에 적용, 소프트웨어의 내부 속성을 측정한다.  
+part 4 : Quality in user metrics : 사용자의 소프트웨어 제품에 대한 사용 품질을 측정
+
+
 **시험문제**  
 ### Quality Model Framework ###  
 process model = 방법론  
